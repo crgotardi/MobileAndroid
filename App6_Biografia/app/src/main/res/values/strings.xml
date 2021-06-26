@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">App6_Biografia</string>
+
+    <string name="strSobre">Sobre</string>
+    <string name="strExperiencia">Experiencia</string>
+    <string name="strFormacao">Formação</string>
+    <string name="strObjetivo">Objetivo</string>
+
+    <string name="txtSobre">Tenho 26 anos, estou no 5º SEM do curso de ADS na FATEC PG</string>
+    <string name="txtFormacao">Sou formado em Marketing pela ESAMC, técnico de informática e também de administração pela
+    ETEC e atualmente cursando ADS pela FATEC. (formação aleatória de um ex desempregado desesperado)</string>
+    <string name="txtExperiencia">Tenho 5 anos de experiência com desenvolvimento, atualmente sou Desenvolvedor front end
+    na Leadlovers e desenvolvo interfaces com o framework ReactJS</string>
+    <string name="txtObjetivo">Meu objetivo é ser um Front End Engineer e poder morar fora do país. (Portugal é
+    a primeira opção)</string>
+</resources>

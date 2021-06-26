@@ -1,10 +1,10 @@
-package com.joseffe.aula05
+package com.cristiano.app5_cadastro
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
 import android.widget.Toast
-import com.joseffe.aula05.Usuario
+import com.pdm.app5_cadcomfoto.Usuario
 
 class SecondActivity : AppCompatActivity() {
     lateinit var textgrid: TextView

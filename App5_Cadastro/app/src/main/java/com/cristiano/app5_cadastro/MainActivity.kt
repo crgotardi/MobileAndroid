@@ -9,7 +9,7 @@ import android.provider.MediaStore
 import android.util.Log
 import android.widget.*
 import androidx.appcompat.app.AlertDialog
-//import com.joseffe.aula05.Usuario
+import com.pdm.app5_cadcomfoto.Usuario
 import kotlinx.android.synthetic.main.activity_main.*
 import java.util.*
 
@@ -69,5 +69,30 @@ class MainActivity : AppCompatActivity() {
         dialog.setTitle("Confirmação")
         dialog.setPositiveButton("Sim", DialogInterface.OnClickListener{dialogInterface, i ->  super.onBackPressed()})
         dialog.create().show()
+    }
+
+    override fun onStart() {
+        super.onStart()
+        Log.d("CICLOVIDA", "OnStart")
+    }
+
+    override fun onResume() {
+        super.onResume()
+        Log.d("CICLOVIDA", "OnResume")
+    }
+
+    override fun onPause() {
+        super.onPause()
+        Log.d("CICLOVIDA", "OnPause")
+    }
+
+    override fun onStop() {
+        super.onStop()
+        Log.d("CICLOVIDA", "OnStop")
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        Log.d("CICLOVIDA", "OnDestroy")
     }
 }

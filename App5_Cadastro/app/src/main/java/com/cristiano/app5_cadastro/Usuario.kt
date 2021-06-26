@@ -1,4 +1,4 @@
-package com.joseffe.aula05
+package com.pdm.app5_cadcomfoto
 
 import android.os.Parcelable
 import kotlinx.android.parcel.Parcelize
