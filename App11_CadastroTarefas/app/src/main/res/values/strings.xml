@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">App10_CadastroTarefas</string>
+    <string name="titulo_lista">Lista de Tarefas</string>
+    <string name="titulo_cadastro">Cadastro de Tarefas</string>
+    <string-array name="opcoes_spinner">
+        <item>Júnior</item>
+        <item>Pleno</item>
+    </string-array>
+</resources>
